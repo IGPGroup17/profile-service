@@ -1,4 +1,4 @@
-package com.igp.profileservice.util;
+package com.igp.profileservice.internal;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
