@@ -1,7 +1,7 @@
-package router;
+package com.igp.profileservice.router;
 
 import com.amazonaws.services.lambda.runtime.Context;
-import service.IService;
+import com.igp.profileservice.service.IService;
 
 public interface IRouter<I, O, S extends IService> {
 

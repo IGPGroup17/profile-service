@@ -1,11 +1,11 @@
-package router;
+package com.igp.profileservice.router;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import service.ProfileService;
-import util.EnvironmentLogger;
-import util.ResponseEntity;
+import com.igp.profileservice.service.ProfileService;
+import com.igp.profileservice.util.EnvironmentLogger;
+import com.igp.profileservice.util.ResponseEntity;
 
 public class ProfileRequestRouter implements IRouter<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent, ProfileService> {
 

@@ -1,4 +1,4 @@
-package util;
+package com.igp.profileservice.util;
 
 import java.util.HashMap;
 import java.util.Map;

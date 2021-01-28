@@ -1,9 +1,9 @@
-package service;
+package com.igp.profileservice.service;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
-import model.Profile;
-import util.ResponseEntity;
+import com.igp.profileservice.model.Profile;
+import com.igp.profileservice.util.ResponseEntity;
 
 public class ProfileServiceImpl implements ProfileService {
 

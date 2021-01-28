@@ -1,4 +1,4 @@
-package util;
+package com.igp.profileservice.util;
 
 @SuppressWarnings("unused")
 public enum HTTPStatus {

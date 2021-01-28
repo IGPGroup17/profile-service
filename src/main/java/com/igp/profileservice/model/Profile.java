@@ -1,4 +1,4 @@
-package model;
+package com.igp.profileservice.model;
 
 public class Profile {
 
