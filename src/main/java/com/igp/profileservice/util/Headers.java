@@ -1,4 +1,4 @@
-package com.igp.profileservice.internal;
+package com.igp.profileservice.util;
 
 import java.util.HashMap;
 import java.util.Map;

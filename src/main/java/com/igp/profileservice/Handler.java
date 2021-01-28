@@ -4,8 +4,8 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import com.igp.profileservice.internal.EnvironmentLogger;
-import com.igp.profileservice.internal.ResponseEntity;
+import com.igp.profileservice.util.EnvironmentLogger;
+import com.igp.profileservice.util.ResponseEntity;
 import com.igp.profileservice.service.ProfileService;
 import com.igp.profileservice.service.ProfileServiceImpl;
 

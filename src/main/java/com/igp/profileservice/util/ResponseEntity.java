@@ -1,4 +1,4 @@
-package com.igp.profileservice.internal;
+package com.igp.profileservice.util;
 
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
 import com.google.gson.Gson;

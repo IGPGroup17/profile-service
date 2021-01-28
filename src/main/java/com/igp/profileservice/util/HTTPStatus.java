@@ -1,4 +1,4 @@
-package com.igp.profileservice.internal;
+package com.igp.profileservice.util;
 
 /**
  * This is kinda semi-stolen from Spring but hey it's good so why not
